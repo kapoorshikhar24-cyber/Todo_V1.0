@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Task Mapper",
+    "slug": "task-mapper",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "plugins": [["expo-speech-recognition", {"microphonePermission":"Allow Task Mapper to use the microphone for voice task creation.","speechRecognitionPermission":"Allow Task Mapper to convert your voice into task text."}]],
+    "android": {"permissions":["RECORD_AUDIO"]},
+    "ios": {"infoPlist":{"NSSpeechRecognitionUsageDescription":"Task Mapper uses speech recognition to create tasks from your voice.","NSMicrophoneUsageDescription":"Task Mapper uses the microphone for voice task creation."}},
+    "web":{"bundler":"metro"}
+  }
+}
